@@ -27,15 +27,10 @@ O objetivo deste repositório é apresentar **decisões técnicas e exemplos did
 .
 ├── README.md
 ├── SECURITY.md
-├── .gitignore
-├── .editorconfig
-├── docs/
-│   ├── architecture.md
-│   └── quality-checklist.md
-├── examples/
-│   ├── accessible-card.html
-│   └── organization.schema.example.json
-└── .github/workflows/check.yml
+├── architecture.md
+├── quality-checklist.md
+├── accessible-card.html
+└── organization.schema.example.json
 ```
 
 ## Exemplos de implementação
@@ -44,8 +39,8 @@ Os arquivos em `examples/` foram criados especificamente para esta demonstraçã
 
 ## Documentação
 
-- [Arquitetura e decisões técnicas](docs/architecture.md)
-- [Checklist de qualidade](docs/quality-checklist.md)
+- [Arquitetura e decisões técnicas](architecture.md)
+- [Checklist de qualidade](quality-checklist.md)
 - [Política de segurança](SECURITY.md)
 
 ## Segurança e privacidade
