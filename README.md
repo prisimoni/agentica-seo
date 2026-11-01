@@ -35,7 +35,20 @@ O objetivo deste repositório é apresentar **decisões técnicas e exemplos did
 
 ## Exemplos de implementação
 
-Os arquivos em `examples/` foram criados especificamente para esta demonstração. Não incluem dados de clientes ou código copiado do ambiente de produção.
+Os arquivos `accessible-card.html` e `organization.schema.example.json`, na raiz deste repositório, foram criados especificamente para esta demonstração. Não incluem dados de clientes ou código copiado do ambiente de produção.
+
+## Critérios de validação
+
+| Área | Verificação recomendada |
+| --- | --- |
+| Rastreamento | Status HTTP, links internos e robots.txt |
+| Indexação | Canonical, sitemap e inspeção de URLs |
+| Renderização | HTML inicial comparado ao DOM renderizado |
+| Dados estruturados | Sintaxe JSON-LD e correspondência com o conteúdo visível |
+| Acessibilidade | Navegação por teclado, foco, rótulos e landmarks |
+| Performance | LCP, CLS, INP e carregamento de recursos |
+
+Os critérios acima são referências de auditoria, não métricas medidas nem certificações.
 
 ## Documentação
 
